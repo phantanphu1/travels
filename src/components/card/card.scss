@@ -1,0 +1,37 @@
+.Card-container{
+    display: flex;
+    height: 400px;
+    min-width: 250px;
+    max-width: 250px;
+    flex-direction: column;
+    cursor: pointer;
+    
+    .image{
+
+        width: 200px !important;
+        height:160px !important;
+        
+    }
+    .name{
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .price{
+        text-align: center;
+
+        margin-top: -5px;
+        color: rgb(47, 212, 190);
+    }
+   button{
+       color: rgb(98, 0, 255);
+       background-color: rgb(80, 170, 80);
+       font-size: 20px;
+        &:hover{
+                background-color: rgb(222, 247, 82);
+                color: red;
+        }
+   }
+   
+    
+}

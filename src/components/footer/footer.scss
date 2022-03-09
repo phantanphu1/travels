@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    background-color: rgb(214, 212, 231);
+    .footer-content {
+      width: 25%;
+      h3{
+        text-align: center;
+  
+        color: green;
+      }
+      ul {
+        li {
+          list-style: none;
+          a {
+            
+            display: table-cell;
+            vertical-align: middle;
+            color: rgb(33, 25, 151);
+            font-size: 14.0px;
+          }
+          i{
+            font-size: 20px;
+            color: red;
+          }
+        }
+      }
+    }
+  }
